@@ -12,12 +12,11 @@
   "url": "https://kin-lane.github.io/working/apis.json",
   "specificationVersion": "0.14",
   "x-country": "US",
-  "x-license": "http://creativecommons.org/licenses/by-sa/4.0/",
   "x-master": [
     {
       "type": "x-apis-json",
       "url": "https://kin-lane.github.io/master/apis.json"
-    },
+    }
   ],
   "apis": [
     {
