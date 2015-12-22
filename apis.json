@@ -1,15 +1,15 @@
 {
-  "name": "Kin Lane - Audio",
-  "description": "This is my default audio API, using it to manage posts in a single API. It is a Stack Network API resource, with supporting docker container for the API.",
-  "image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-audio.png",
+  "name": "Kin Lane - Working",
+  "description": "This is my default working API, using it to manage posts in a single API. It is a Stack Network API resource, with supporting docker container for the API.",
+  "image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-working.png",
   "tags": [
-    "application programming interface",
+    "Application Programming Interface",
     "API",
-    "Audio"
+    "Working"
   ],
   "created": "2015-01-22",
   "modified": "2015-01-22",
-  "url": "https://kin-lane.github.io/audio/apis.json",
+  "url": "https://kin-lane.github.io/working/apis.json",
   "specificationVersion": "0.14",
   "x-country": "US",
   "x-license": "http://creativecommons.org/licenses/by-sa/4.0/",
@@ -21,36 +21,36 @@
   ],
   "apis": [
     {
-      "name": "Audio",
-      "description": "A audio API resource.",
-      "image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-audio.png",
-      "humanURL": "https://kin-lane.github.io/audio/",
-      "baseURL": "http://audio.api.kinlane.com",
+      "name": "Working",
+      "description": "A working API resource.",
+      "image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-working.png",
+      "humanURL": "https://kin-lane.github.io/working/",
+      "baseURL": "http://working.api.kinlane.com",
       "tags": [
         "API",
         "Application Programming Interface",
-        "Audio"
+        "Working"
       ],
       "properties": [
         {
           "type": "Swagger",
-          "url": "https://kin-lane.github.io/audio/swagger.json"
+          "url": "https://kin-lane.github.io/working/swagger.json"
         },
         {
           "type": "Blueprint",
-          "url": "https://kin-lane.github.io/audio/audio.apib"
+          "url": "https://kin-lane.github.io/working/working.apib"
         },
         {
           "type": "x-postman",
-          "url": "https://kin-lane.github.io/audio/postman.json"
+          "url": "https://kin-lane.github.io/working/postman.json"
         },
         {
           "type": "x-apimatic-sdks",
-          "url": "https://kin-lane.github.io/audio/code/"
+          "url": "https://kin-lane.github.io/working/code/"
         },
         {
           "type": "x-api-science",
-          "url": "https://kin-lane.github.io/audio/status/"
+          "url": "https://kin-lane.github.io/working/status/"
         }
       ],
       "contact": [
