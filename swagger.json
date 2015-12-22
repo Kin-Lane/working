@@ -15,7 +15,7 @@
     "application/json"
   ],
   "paths": {
-    "/audio/": {
+    "/audio/?query=hello": {
       "get": {
         "summary": "retrieves all audio",
         "description": "pulls all audio, with filter by keyword",
@@ -33,13 +33,6 @@
             "in": "query",
             "description": "your appkey for accessing the API",
             "required": true,
-            "type": "string"
-          },
-          {
-            "name": "query",
-            "in": "query",
-            "description": "a text query to search across audio",
-            "required": false,
             "type": "string"
           }
         ],
