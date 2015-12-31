@@ -5,12 +5,10 @@ layout: page
 <script type="text/javascript">
 
 	$url = "http://project.api.kinlane.com/project/view/";
-	$data = '';
 
 	$.ajax({
 	  method: "POST",
-	  url: $url,
-	  data: $data
+	  url: $url
 	})
 	  .done(function( msg ) {
 	    console.log(msg);
