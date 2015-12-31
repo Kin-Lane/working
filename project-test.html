@@ -1,0 +1,26 @@
+---
+layout: page
+---
+
+<script type="text/javascript">
+
+	$url = "http://project.api.kinlane.com/project/view/";
+	$data = '{ name: "John", location: "Boston" }';
+
+	$.ajax({
+	  method: "POST",
+	  url: $url,
+	  data: $data
+	})
+	  .done(function( msg ) {
+	    console.log(msg);
+	  });
+
+
+</script>
+
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
