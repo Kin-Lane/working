@@ -6,7 +6,7 @@ layout: page
 
 	$url = "http://project.api.kinlane.com/project/view/";
 
-  var jqxhr = $.post(url, function() {
+  var jqxhr = $.post($url, function() {
     console.log( "success" );
   })
     .done(function($data) {
