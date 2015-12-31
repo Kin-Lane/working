@@ -6,12 +6,12 @@ layout: page
 
 	$url = "http://project.api.kinlane.com/project/view/";
 
-  var jqxhr = $.post( url, function() {
+  var jqxhr = $.post(url, function() {
     console.log( "success" );
   })
-    .done(function(data) {
+    .done(function($data) {
       console.log( "second success" );
-      console.log(data);
+      console.log($data);
     })
     .fail(function() {
       console.log( "error" );
