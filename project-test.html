@@ -6,13 +6,19 @@ layout: page
 
 	$url = "http://project.api.kinlane.com/project/view/";
 
-	$.ajax({
-	  method: "POST",
-	  url: $url
-	})
-	  .done(function( msg ) {
-	    console.log(msg);
-	  });
+  var jqxhr = $.post( url, function() {
+    console.log( "success" );
+  })
+    .done(function(data) {
+      console.log( "second success" );
+      console.log(data);
+    })
+    .fail(function() {
+      console.log( "error" );
+    })
+    .always(function() {
+      console.log( "finished" );
+  });
 
 
 </script>
